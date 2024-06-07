@@ -2,7 +2,7 @@
 #for pc if add "laser_filters/" error, remove this, otherwise add.
 scan_filter_chain:
 - name: range
-  type: LaserScanRangeFilter
+  type: laser_filters/LaserScanRangeFilter
   params:
     lower_threshold: 0.3
     upper_threshold: .inf
